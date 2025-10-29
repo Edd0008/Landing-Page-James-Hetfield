@@ -1,0 +1,115 @@
+/* RESET GERAL */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0.8) 0%, black 70%);
+  }
+  
+  /* TOPO */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+  }
+  
+  .menu-visual {
+    color: gray;
+    display: flex;
+    gap: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  .menu-visual span:hover {
+    color: #ff0000;
+    transition: color 0.3s;
+  }
+  
+  /* CONTEÚDO PRINCIPAL */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 10vh 4vw 4vh 4vw;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  /* TEXTOS GRANDES */
+  .texto-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  /* TEXTOS GRANDES */
+  .rock {
+    font-size: 15vw;
+    font-weight: bold;
+    line-height: 1;
+  }
+  
+  .never {
+    font-size: 15vw; /* AUMENTADO para ocupar mais espaço */
+    font-weight: bold;
+    line-height: 1;
+    margin-top: -2vh;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* GUITARRA EM DIAGONAL — alinhada com o “R” */
+  .guitarra {
+    position: absolute;
+    bottom: 2vh;
+    left: -3vw;
+    width: 28vw;
+    transform: rotate(15deg);
+    z-index: 3;
+    pointer-events: none;
+  }
+  
+  /* FOTO DO HETFIELD */
+  .hetfield {
+    position: absolute;
+    width: 20vw;
+    bottom: 18vh;
+    left: 70vw;
+    border: 8px solid black;
+    z-index: 2;
+  }
+  
+  /* DESCRIÇÃO — maior e mais fina */
+  .descricao {
+    font-family: 'raleway', sans-serif;
+    color: gray;
+    position: absolute;
+    bottom: 2vh;
+    left: 10vw;
+    width: 70vw;
+    font-size: 1.4vw;
+    line-height: 1.5;
+    font-weight: 200;
+    z-index: 2;
+  }
+  
