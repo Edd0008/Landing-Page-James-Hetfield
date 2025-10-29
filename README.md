@@ -42,7 +42,6 @@ O site foi planejado para se ajustar automaticamente a diferentes tamanhos de te
 ---
 
 ## Estrutura do Projeto
-
 /
 ├── index.html
 ├── /css
