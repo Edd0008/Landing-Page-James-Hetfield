@@ -112,4 +112,70 @@ body {
     font-weight: 200;
     z-index: 2;
   }
+  /* ======== MODO TABLET ======== */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    header {
+      padding: 3vh 6vw;
+    }
+  
+    .logo {
+      font-size: 4vw;
+    }
+  
+    .menu-visual {
+      font-size: 3vw;
+      gap: 3vw;
+    }
+  
+    .hero {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 8vh 4vw;
+    }
+  
+    .texto-central {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      text-align: center;
+      margin-top: 10vh;
+    }
+  
+    .rock, .never {
+      font-size: 18vw;
+      line-height: 0.9;
+    }
+  
+    .guitarra {
+      position: absolute;
+      bottom: 5vh;
+      left: -8vw;
+      width: 40vw;
+      transform: rotate(25deg);
+      opacity: 0.8;
+    }
+  
+    .hetfield {
+      position: relative;
+      width: 45vw;
+      bottom: auto;
+      left: auto;
+      margin-top: 5vh;
+      border: 6px solid black;
+    }
+  
+    .descricao {
+      width: 85vw;
+      font-size: 2.5vw;
+      text-align: center;
+      margin-top: 5vh;
+      position: relative;
+      left: auto;
+      bottom: auto;
+    }
+  }
+  
   
