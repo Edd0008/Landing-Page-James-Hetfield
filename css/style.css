@@ -151,11 +151,10 @@ body {
   
     .guitarra {
       position: absolute;
-      bottom: 5vh;
-      left: -8vw;
+      bottom: 60vh;
+      left: 5vw;
       width: 40vw;
-      transform: rotate(25deg);
-      opacity: 0.8;
+      transform: rotate(10deg);
     }
   
     .hetfield {
@@ -177,5 +176,82 @@ body {
       bottom: auto;
     }
   }
+
+  /* ======== MODO CELULAR ======== */
+@media (max-width: 599px) {
+    
   
+    header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2vh 0;
+      gap: 1vh;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      width: 100%;
+      z-index: 20;
+    }
   
+    .logo {
+      font-size: 10vw;
+      text-align: right;
+      justify-content: center;
+    }
+  
+    .menu-visual {
+      font-size: 4vw;
+      gap: 5vw;
+      display: flex;
+    }
+  
+    .hero {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 20vh; /* espaço pro header fixo */
+      height: auto;
+      text-align: center;
+    }
+  
+    .texto-central {
+      position: relative;
+      top: -40vh;
+      left: auto;
+      margin-bottom: 4vh;
+    }
+  
+    .rock, .never {
+      font-size: 22vw;
+      line-height: 0.9;
+    }
+  
+    .guitarra {
+      width: 60vw;
+      position: relative;
+      left: -10vh;
+      bottom: 5vh;
+      transform: rotate(10deg);
+      margin: 5vh 0;
+    }
+  
+    .hetfield {
+      width: 60vw;
+      border: 4px solid black;
+      margin-top: 3vh;
+      left: 10vh;
+      bottom: 30vh;
+    }
+  
+    .descricao {
+      font-size: 3.5vw;
+      width: 85vw;
+      text-align: justify;
+      margin: 5vh auto;
+      position: relative;
+      left: auto;
+      bottom: 4vh;
+      color: rgb(190, 190, 190);
+    }
+  
+}
