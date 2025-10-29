@@ -45,17 +45,14 @@ O site foi planejado para se ajustar automaticamente a diferentes tamanhos de te
 
 /
 ├── index.html
-
 ├── /css
-
 │ ├── reset.css
-
 │ └── style.css
-
 └── /img
-
 ├── James.jpeg
-
 └── guitar.png
+
+
+
 
 
