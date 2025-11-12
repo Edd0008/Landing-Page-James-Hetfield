@@ -162,7 +162,7 @@ body {
       width: 45vw;
       bottom: auto;
       left: auto;
-      margin-top: 5vh;
+      margin-top: 0vh;
       border: 6px solid black;
     }
   
@@ -170,7 +170,7 @@ body {
       width: 85vw;
       font-size: 2.5vw;
       text-align: center;
-      margin-top: 5vh;
+      margin-top: 0vh;
       position: relative;
       left: auto;
       bottom: auto;
@@ -216,7 +216,7 @@ body {
   
     .texto-central {
       position: relative;
-      top: -40vh;
+      top: -45vh;
       left: auto;
       margin-bottom: 4vh;
     }
@@ -236,21 +236,21 @@ body {
     }
   
     .hetfield {
-      width: 60vw;
+      width: 50vw;
       border: 4px solid black;
       margin-top: 3vh;
-      left: 10vh;
-      bottom: 30vh;
+      left: 12vh;
+      bottom: 37vh;
     }
   
     .descricao {
-      font-size: 3.5vw;
-      width: 85vw;
+      font-size: 3.4vw;
+      width: 90vw;
       text-align: justify;
       margin: 5vh auto;
       position: relative;
       left: auto;
-      bottom: 4vh;
+      bottom: 11vh;
       color: rgb(190, 190, 190);
     }
   
